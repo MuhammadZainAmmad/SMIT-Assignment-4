@@ -1,0 +1,295 @@
+.hrDark{
+    width: 70px;
+    background-color: #424242;
+    height: 3px;
+    border-radius: 2px;
+    display: inline-block;
+}
+.hrLight{
+    width: 220px;
+    background-color: #E0E0E0;
+    display: inline-block;
+    height: 3px;
+    border-radius: 2px;
+
+}
+
+
+
+
+
+
+
+/* navBar */
+.navbar{
+    background-color: #E0E0E0 !important;
+}
+.navbar-brand{
+    margin-left: 20px;
+}
+.nav-link{
+    color: #424242 !important;
+    font-weight: bold;
+}
+.logo{
+    height: 50px;
+    width: 130px;
+    margin-right: 180px;
+}
+.navbar-text{
+    color: #424242 !important;
+    font-weight: bold ;
+    margin-top: 5px;
+}
+.dropdown-menu{
+    background-color: #E0E0E0 !important;
+}
+.navbar-text:hover{
+    color:  #ffffff !important;
+}
+.nav-link:hover{
+    border-radius: 10px;
+    background-color: #424242;
+    color: #ffffff !important;
+}
+.dropdown-item:hover{
+    background-color: #424242 !important;
+    color: #ffffff !important;
+    font-weight: bold;
+}
+.logo:hover{
+    background-color: #ffffff;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 2px #BDBDBD ;
+}
+
+
+
+
+
+
+/* slider */
+.carousel-caption h5, .carousel-caption p{
+    color: #000000 !important;
+    font-weight: bold;
+}
+.carousel-indicators li{
+    color: #000000 !important;
+}
+
+
+
+/* marquee */
+.mNoti{
+    color: #ff0000;
+}
+.mNews{
+    color: #424242;
+}
+
+
+
+
+
+
+
+/* socialIcons */
+.container-fluid{
+    background-color: #E0E0E0;
+}
+.container-fluid .row{
+    text-align: center;
+}
+.container-fluid .row .col i{
+    margin: 10px 10px 0px 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #424242;
+    border: 1px solid #424242;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+}
+.container-fluid .row .col i:hover{
+    background-color: #1664ca;
+    border: 1px solid #1664ca;
+    color: #000000;
+}
+
+
+
+
+/* introduction */
+.introMain{
+    border: 1px solid #E0E0E0;   
+}
+.introMain h1{
+    text-align: center;
+    color: #424242;
+}
+.introMain p{
+    color: #424242;
+}
+.introSub{
+    background-color: #F5F5F5;
+    padding: 30px;
+    width: 700px;
+    margin-bottom: 40px;
+    box-shadow: 8px 8px 3px #BDBDBD;
+    margin-top: 30px;
+}
+
+
+
+
+
+/* usefulAddresses */
+.usefulAddresses{
+    background-color: #424242;
+    padding: 30px 0px;
+}
+.usefulAddresses .container{
+    color: #E0E0E0 ;
+}
+.usefulAddresses .container i{
+    font-size: 20px;
+}
+.usefulAddresses a{
+    color: #E0E0E0 ;
+}
+.usefulAddresses a:hover{
+    color: #264cc7;
+}
+
+
+
+
+
+
+
+/* footer */
+.footer{
+    background-color: #264cc7;
+    color: #E0E0E0;
+}
+.footer .container{
+    padding: 10px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* map */
+.mapMain,.headingMain{
+    background-color: #000000;
+}
+.headingMain h1{
+    color: #E0E0E0;
+    margin-top: 30px;
+    text-shadow: 0px 5px 5px #BDBDBD;
+}
+.mapCol{
+    margin: 50px 0;
+}
+
+
+
+
+
+
+
+
+.markSheet{
+    background-color: #BDBDBD;
+}
+
+
+
+
+
+
+
+.services1{
+    padding: 100px 0px 50px 0;
+    background-color: #ffffff;
+}
+.services4a{
+    background-color: #212121;
+    color: #F5F5F5;
+}
+.services4b{
+    background-color: #424242;
+    color: #F5F5F5;
+}
+.services5{
+    background-color: #F5F5F5;
+    color: #212121;
+    margin-top: 10px;
+}
+.services5{
+    padding: 20px 0;
+    box-shadow: 5px 5px 3px #E0E0E0  ;
+}
+.services5:hover{
+    color: #F5F5F5;
+    background-color: #212121;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1200px) {
+} 
+@media only screen and (max-width: 992px) {
+} 
+@media only screen and (max-width: 768px) {
+/* Introduction */
+    /* .introSub .hrDark{
+        margin-left: 100px;
+    } */
+} 
+@media only screen and (max-width: 576px) {
+/* navBar */
+    .navbar-brand{
+        margin-left: 0px;
+    }
+/* Introduction */
+    .introSub{
+        width: auto;
+    }
+} 
+@media only screen and (max-width: 460px) {
+/* Introduction */
+    .introSub{
+        width: auto;
+    }
+} 
+@media only screen and (max-width: 400px){
+/* Introduction */
+    .introMain h1{
+        font-size: x-large;
+    }
+    .hrDark{
+        width: 40px;
+    }
+    .hrLight{
+        width: 120px;
+    }
+}
